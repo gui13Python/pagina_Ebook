@@ -1,0 +1,266 @@
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            background-color: #f5f7ff7;
+            color: #22201f;
+        }
+        h1 {
+            color: #FF5722;
+            font-size: 2.5rem;
+        }
+        h2 {
+            color: #00BCD4;
+        }
+        .ebook-cover {
+            width: 300px;
+            height: auto;
+            margin: 20px auto;
+            border: 1px solid #ddd;
+            display: block;
+        }
+        .benefits, .testimonial {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+
+        .partetwo{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+
+
+
+
+
+
+
+
+        .testimonial-grid {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        .testimonial-item {
+            flex: 1;
+            text-align: center;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .testimonial-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+        .testimonial-item blockquote {
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+        .testimonial-item footer {
+            font-weight: bold;
+            color: #666;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #27ae60;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin: 10px 0;
+            transition: background-color 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #2ecc71;
+        }
+        .bonus {
+            border: 2px dashed #3498db;
+            padding: 20px;
+            margin: 30px 0;
+            text-align: center;
+        }
+        .seo-highlight {
+            background-color: #FFF3E0;
+            padding: 15px;
+            border-left: 5px solid #FF5722;
+            margin: 20px 0;
+        }
+        .form-container {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #F5F7F7;
+            border: 2px solid #00BCD4;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .form-container p{
+            width: 50%;
+            font-family:sans-serif;
+            font-weight: 100;
+            font-size: 12px;
+        }
+
+
+        #hora{
+            color: red;
+        }
+
+
+        #agora{
+            color: #27ae60;
+        }
+
+
+
+
+
+
+        .form {
+            width: 100%;
+            max-width: 450px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .form-group {
+            width: 100%;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            text-align: center;
+        }
+        .form input, 
+        .form textarea {
+            width: 100%;
+            padding: 10px;
+            text-align: center;
+            border: 2px solid #00BCD4;
+            border-radius: 6px;
+            font-size: 16px;
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+        .form input:focus, 
+        .form textarea:focus {
+            outline: none;
+            border-color: #FF5722;
+            box-shadow: 0 0 5px rgba(255,87,34,0.3);
+        }
+        .form-button {
+            width: 100%;
+            max-width: 300px;
+            background-color: #00BCD4;
+            color: white;
+            border: none;
+            padding: 15px 20px;
+            border-radius: 6px;
+            font-size: 18px;
+            font-weight: bold;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+        .form-button:hover {
+            background-color: #0288D1;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        #thank-you-message {
+            display: none;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .bonus .form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .bonus .form-group {
+            width: 100%;
+            max-width: 350px;
+            text-align: center;
+        }
+        .bonus .form-group input {
+            text-align: center;
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #00BCD4;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+        .bonus .form-button {
+            width: 100%;
+            max-width: 350px;
+            text-align: center;
+            background-color: #00BCD4;
+            color: white;
+            border: none;
+            padding: 15px 20px;
+            border-radius: 6px;
+            font-size: 18px;
+            font-weight: bold;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .bonus .form-button:hover {
+            background-color: #0288D1;
+        }
+    
+
+        @media only screen and (max-width: 600px){
+            .testimonial-grid{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+        @media only screen and (max-width: 600px){
+            .header h1{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                font-size:1.5rem;
+            }
+        }
+
+        @media only screen and (max-width: 600px){
+            .header h2{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                font-size:1rem;
+            }
+        }
