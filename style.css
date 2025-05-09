@@ -1,16 +1,4 @@
-        * {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden; /* Esconde qualquer transbordamento lateral */
-}
-
-        
-        
-        
+  
         
         
         
@@ -286,3 +274,14 @@ body {
                 font-size:1rem;
             }
         }
+
+        @media only screen and (max-width: 600px){
+                  * {
+                box-sizing: border-box;
+}
+
+                body {
+                    margin: 0;
+                    padding: 0;
+                    overflow-x: hidden; /* Esconde qualquer transbordamento lateral */
+}}
