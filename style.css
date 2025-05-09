@@ -116,7 +116,7 @@ h2 {
 .form-container {
     margin-top: 40px;
     padding: 20px;
-    background-color: #F5F7F7;
+    /* background-color: #F5F7F7; */
     border: 2px solid #00BCD4;
     border-radius: 5px;
     display: flex;
@@ -130,6 +130,7 @@ h2 {
     font-weight: 100;
     font-size: 12px;
     text-align: center;
+    color: #22201f;
 }
 
 #hora {
@@ -272,5 +273,8 @@ h2 {
 
     .form-container p {
         width: 100%;
+        color: #22201f;
+        
     }
 }
+
