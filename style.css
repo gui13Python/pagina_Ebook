@@ -1,4 +1,21 @@
+        * {
+  box-sizing: border-box;
+}
 
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Esconde qualquer transbordamento lateral */
+}
+
+        
+        
+        
+        
+        
+        
+        
+        
         body {
             font-family: 'Open Sans', sans-serif;
             line-height: 1.6;
@@ -43,6 +60,10 @@
             flex-direction: column;
             align-items: center;
         }
+
+
+
+
 
 
 
