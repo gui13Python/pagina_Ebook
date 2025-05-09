@@ -22,10 +22,10 @@
             color: #00BCD4;
         }
         .ebook-cover {
-            width: 300px;
+            width: 500px;
             height: auto;
             margin: 20px auto;
-            border: 1px solid #ddd;
+            /* border: 1px solid #ddd; */
             display: block;
         }
         .benefits, .testimonial {
