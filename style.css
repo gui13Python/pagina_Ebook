@@ -276,5 +276,19 @@ h2 {
         color: #22201f;
         
     }
+
+    .form-container {
+        color: #22201f;
+        opacity: none;
+        
+    }
+
+    input{
+        width: 100%;
+        color: #22201f;
+        max-width: 95%;
+        
+    }
+
 }
 
