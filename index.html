@@ -9,69 +9,104 @@
   <link rel="canonical" href="https://seudominio.com/criarsemcusto" />
   <meta name="robots" content="index, follow" />
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 
-  <!-- ESTILO SIMPLES PARA FORMULÁRIO CORRIGIDO -->
-  <style>
-    body {
-      font-family: 'Open Sans', sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    .form-container {
-      max-width: 500px;
-      margin: 30px auto;
-      padding: 20px;
-      background-color: #f5f5f5;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    }
-    .form-container h2, .form-container p {
-      text-align: center;
-    }
-    .form {
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-      margin-top: 20px;
-    }
-    .form-group {
-      display: flex;
-      flex-direction: column;
-    }
-    .form-group label {
-      margin-bottom: 5px;
-      font-weight: bold;
-    }
-    .form-group input {
-      padding: 10px;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-      font-size: 16px;
-    }
-    .form-button {
-      padding: 12px;
-      font-size: 16px;
-      background-color: #4CAF50;
-      color: white;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-      transition: background 0.3s;
-    }
-    .form-button:hover {
-      background-color: #45a049;
-    }
-    #thank-you-message {
-      text-align: center;
-      color: green;
-      font-weight: bold;
-      margin-top: 20px;
-    }
-  </style>
+  <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s) {
+      if(f.fbq) return;
+      n = f.fbq = function() {
+        n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s);
+    }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1806300869913660');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1806300869913660&ev=PageView&noscript=1" />
+  </noscript>
+  <!-- End Meta Pixel Code -->
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-D157CXZLQM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-D157CXZLQM');
+  </script>
 </head>
 <body>
 
-  <!-- ... OUTROS BLOCOS ... -->
+  <div class="header">
+    <h1>Crie Seu Site PROFISSIONAL em 30 MINUTOS <br/>SEM Saber ABSOLUTAMENTE NADA de Programação</h1>
+    <h2>Método Revolucionário: Transforme-se em um Criador de Sites com Inteligência Artificial em Minutos!</h2>
+    <img class="ebook-cover" src="./imagem/nova_capa-Photoroom.png" alt="E-book: Como Criar Site Sem Programar" />
+    <p><strong>33 páginas de estratégias comprovadas</strong> que vão te transformar de zero absoluto a criador de sites!</p>
+  </div>
+
+  <div class="seo-highlight">
+    <h3>🚀 Método Exclusivo: Site Profissional Sem Complicação</h3>
+    <p>Descubra como milhares de pessoas estão criando sites incríveis em MENOS DE 30 MINUTOS, sem conhecimento técnico!</p>
+  </div>
+
+  <div class="benefits">
+    <h2>O que você vai DOMINAR:</h2>
+    <ul>
+      <li>🤖 Usar IA para gerar código automaticamente em segundos</li>
+      <li>🌐 Técnicas secretas para criar sites sem escrever uma linha de código</li>
+      <li>📈 Estratégias de SEO para rankear no Google</li>
+      <li>💡 Truques para um design profissional sem ser designer</li>
+      <li>💰 Publicação gratuita usando plataformas de ponta</li>
+    </ul>
+  </div>
+
+  <div class="partetwo">
+    <h2>Por que este método é DIFERENTE?</h2>
+    <ul>
+      <li>🏆 Transforme sua presença online em HORAS, não em meses</li>
+      <li>💼 Expanda oportunidades profissionais instantaneamente</li>
+      <li>💸 Zero custos com programadores caros</li>
+      <li>🌟 Destaque-se no mercado digital competitivo</li>
+    </ul>
+  </div>
+
+  <div class="testimonial">
+    <div class="testimonial-grid">
+      <div class="testimonial-item">
+        <img class="testimonial-photo" src="./imagem/pedro.png" alt="Pedro Santos" />
+        <blockquote>"Achei que criar um site era impossível. Com este guia, montei meu site de vendas em menos de uma hora e comecei a expandir meus negócios online!"<footer>- Pedro Santos, Vendedor</footer></blockquote>
+      </div>
+      <div class="testimonial-item">
+        <img class="testimonial-photo" src="./imagem/ana.png" alt="Ana Silva" />
+        <blockquote>"Como afiliada, descobri que criar um site pode ser super simples! Meu site estava no ar em um dia!"<footer>- Ana Silva, Afiliada</footer></blockquote>
+      </div>
+      <div class="testimonial-item">
+        <img class="testimonial-photo" src="./imagem/carlos.png" alt="Carlos Oliveira" />
+        <blockquote>"Nunca imaginei que poderia criar meu próprio site sem ser técnico. Método incrível e fácil!"<footer>- Carlos Oliveira, Empreendedor</footer></blockquote>
+      </div>
+    </div>
+  </div>
+
+  <div style="text-align: center;">
+    <a class="cta-button" href="https://mpago.li/1Cn4cZr" target="_blank">QUERO REVOLUCIONAR MINHA PRESENÇA ONLINE</a>
+    <p style="color: #4CAF50; font-weight: bold; margin-top: 10px;">
+      🔒 Pagamento 100% Seguro via Mercado Pago - O método de pagamento mais confiável do Brasil
+    </p>
+    <script src="https://www.mercadopago.com.br/integrations/v1/web-payment-checkout.js"
+            data-preference-id="353553104-10147c90-d1ff-4627-b7b0-c9748f2e935b"
+            data-source="button"></script>
+  </div>
 
   <div class="form-container">
     <h2>🔥 Acesso Exclusivo:</h2>
